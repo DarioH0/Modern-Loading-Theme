@@ -1,0 +1,65 @@
+body{
+    background-color: #0c0c0c;
+    color: #fff;
+    margin: 0 auto;
+    font-family:  Arial;
+    scroll-behavior: smooth;
+}
+
+center{
+    margin-top: 15%;
+}
+
+@keyframes loading{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:100%;
+    }
+}
+
+
+/* @SH#5050\@\S\H#5050 */
+
+[class~=blur]{
+    filter:blur(10px);
+}
+[class~=unblur],[class~=blur]{
+    transition:filter 1s;
+}
+[class~=unblur]{
+    filter:blur(0px);
+}
+
+#after_load{
+    display:none;
+}
+#loading-animation{
+    animation-name:loading;
+}
+#loading-animation{
+    animation-duration:4.8s;
+}
+#loading-animation{
+    animation-timing-function:linear;
+}
+#loading-animation{
+    height:1.5pt;
+}
+#loading-animation{
+    background-color: #fcdb03;
+}
+#loading-animation{
+    width:0%;
+}
+#loading-animation{
+    left:0;
+}
+#loading-animation{
+    position:fixed;
+}
+#loading-animation{
+    top:0;
+}
+
